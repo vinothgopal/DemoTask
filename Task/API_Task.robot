@@ -2,11 +2,10 @@
 Library           RequestsLibrary
 Library           JSONLibrary
 Library           Collections
-Resource          ../Config.txt
 Library           ../FunctionLibrary/ReadJsonContent.py
 
 *** Variables ***
-${base_url}       ${url}
+${base_url}       http://thetestingworldapi.com/
 ${uri}            api/studentsDetails
 ${firstName}      vinoth
 ${postStatusCode}    201
