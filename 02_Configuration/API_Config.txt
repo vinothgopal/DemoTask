@@ -1,0 +1,11 @@
+*** Settings ***
+
+*** Variables ***
+${postUrl}       https://postman-echo.com
+${getUrl}  https://www.google.com
+${Posturi}            /post
+${geturi}  /
+${PostResval}      wave
+${GetResVal}  search
+${postStatusCode}    200
+${getStatusCode}    200
